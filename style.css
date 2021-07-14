@@ -1,0 +1,84 @@
+/* -----------------google fonts------------------------------  */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;  
+}
+
+/*-------------------------- nabygation bar------------------ */
+.logo img{
+    width: 250px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+
+}
+nav ul a{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+/* ----------------------------------top-section -------------------------------*/
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.half-width{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.half-width img{
+    padding: 50px 0;
+    width: 560px;
+    height: 438;
+   
+
+}
+.half-width h1{
+    color: #ffffff;
+    font-size: 64px;
+    line-height: 80px;
+    padding-left: 156px;
+    font-weight: 700;
+}
+.button{
+    text-decoration: none;
+    display: inline-block;
+    background-color: #E02C6D;
+    color: #ffffff;
+    
+    padding: 10px 24px 10px 24px;
+    border-radius: 30px;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 24px;
+}
+header{
+    background: radial-gradient(#7e77e7,#2D25A0);
+}
+.half-width a{
+    margin-left: 156px;
+}
